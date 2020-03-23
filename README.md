@@ -32,9 +32,9 @@ For a 256x256 pixel face,
 
 Line 23 of the source code
 
-if abs (y0-y1) <10:
+if abs (y0-y1) <11:
 
-You may need to change the threshold of 10.
+You may need to change the threshold of 11.
 
 
 
@@ -69,9 +69,9 @@ DFL\workspace\data_src\alignedフォルダーで顔画像を検索し、
 
 ソースコードの行23：
 
-abs（y0-y1）<10
+abs（y0-y1）<11
 
-10のしきい値
+11のしきい値
 
 を変更する必要がある場合があります。
 

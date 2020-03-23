@@ -49,8 +49,7 @@ def eye_point(img, parts, left=True):
 
 
 target_dir = os.getcwd()
-target_dir = os.path.join(target_dir, 'data_src')
-target_dir = os.path.join(target_dir, 'aligned')
+target_dir = os.path.join(target_dir, 'data_src', 'aligned')
 match_path = os.path.join(target_dir, 'close_eye')
 
 #Make sure the path exists and if not, create it.
@@ -62,10 +61,8 @@ if not path.isdir(match_path):
    else:
        print("Successfully created the directory %s " % match_path)
 
-#Count how many files in the directory
 file_count = len(os.listdir(target_dir))
 
-#Show some stats
 print("Checking " + str(file_count) + " files")
 
 for thisFile in os.listdir(target_dir):

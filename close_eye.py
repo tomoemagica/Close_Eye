@@ -20,7 +20,7 @@ def get_center(gray_img):
 
 
 def is_close(y0, y1):
-    if abs(y0 - y1) < 10:
+    if abs(y0 - y1) < 11:
         return True
     return False
 
